@@ -21,6 +21,7 @@ hidutil property --set  --matching '{ "ProductID": 0x027e }' '{"UserKeyMapping":
 ```
 
 > Note: `--matching '{ "ProductID": 0x027e }'` ProductID you can replace that id your remote keyboard. 
+> You can remove `--matching '{ "ProductID": 0x027e }'` to use script with all keyboards (build in and external) 
 
 3. Save File and type 
 
@@ -33,6 +34,8 @@ chmod +x replecmentkey.sh
 sudo defaults write com.apple.loginwindow LoginHook /Users/username/remapkeys.sh
 ```
 > Note: `/Users/username/remapkeys.sh` type path where you saved script
+
+You can add your script via Automator.app to startup
 
 5. Done
 
