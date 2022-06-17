@@ -3,7 +3,7 @@ Change Right Command Key with Right Option key on MacOS
 
 1. Open Terminal and create bash file
 ```sh
-nano replecmentkey.sh
+nano remapkeys.sh
 ```
 2. Copy this to file
 ```sh
