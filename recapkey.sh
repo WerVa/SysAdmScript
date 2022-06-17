@@ -31,3 +31,7 @@ hidutil property --set '{"UserKeyMapping":[
 
 # to remove the key mapping use: 
 # hidutil property --set '{"UserKeyMapping":[]}'
+
+
+# add to start 
+# sudo defaults write com.apple.loginwindow LoginHook /Users/username/remapkeys.sh
